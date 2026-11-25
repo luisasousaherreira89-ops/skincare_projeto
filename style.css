@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5b4dc;
+    margin: 0;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #e8e8e8;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    font-size: 16px;
+    color: rgb(228, 11, 65);
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.linha-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.esquerda {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.direita {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 13px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 3px;
+}
+
+input, textarea {
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #b5b5b5;
+    font-size: 13px;
+}
+
+textarea {
+    resize: vertical;
+    height: 55px;
+}
+
+#previewFoto {
+    width: 130px;
+    height: 130px;
+    border: 1px solid #26bae7;
+    background-color: #fff;
+    display: none;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.botoes-acao {
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+}
+
+.btn-verde {
+    background-color: #e763e7;
+}
+
+.btn-cinza {
+    background-color: #6e216e;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    font-size: 13px;
+}
+
+th {
+    background-color: #b5f08f;
+    color: white;
+}
+
+.btn-tabela {
+    padding: 5px 10px;
+    font-size: 11px;
+    margin-right: 3px;
+}
+
+.btn-editar {
+    background-color: #1a365d;
+}
+
+.btn-excluir {
+    background-color: #9b2c2c;
+}
